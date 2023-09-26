@@ -23,11 +23,11 @@
                     <input type="password" class="form-control" id="password" name="password" placeholder="Введіть пароль" required>
                 </div>
                 <div class=" form-group">
-                    <label for="confirmPassword">Повторення пароль:</label>
+                    <label for="confirmPassword">Підтвердження паролю:</label>
                     <div class="invalid-feedback error_confirm_password" <?php if (!empty($error['password']))  echo "style='display:block'" ?>>
                         <?= $error['password'] ?? null; ?>
                     </div>
-                    <input type="password" class="form-control" id="confirmPassword" name="confirmPassword" placeholder="Повторіть пароль" required>
+                    <input type="password" class="form-control" id="confirmPassword" name="confirmPassword" placeholder="Підтвердіть пароль" required>
                 </div>
                 <div class="text-center">
                     <input type="submit" class="btn btn-primary btn-block mt-4" value="Відправити">
